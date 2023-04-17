@@ -1,98 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T17:09:17.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zASsYiBx6nVtUk4bX77C" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T14:20:37.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ckdZKqRbiuSFDWroITbT" version="21.1.8" type="github">
   <diagram name="Page-1" id="IVhuWNRBlAkUgPsZoB0r">
     <mxGraphModel dx="2768" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iBP4piJZRifYzZvC7ej7-6" value="Expirements / tasks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-6" value="Expirements / tasks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="50" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-7" value="Comparing performance CHERIBSD, Baremetal and HermitTUX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-7" value="Comparing performance CHERIBSD, Baremetal and HermitTUX" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="290" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.547;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-6" target="iBP4piJZRifYzZvC7ej7-7">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.547;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-6" target="iBP4piJZRifYzZvC7ej7-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="430" as="sourcePoint" />
             <mxPoint x="450" y="380" as="targetPoint" />
             <Array as="points">
               <mxPoint x="420" y="120" />
-              <mxPoint x="360" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-7" target="iBP4piJZRifYzZvC7ej7-13">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-7" target="iBP4piJZRifYzZvC7ej7-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="430" as="sourcePoint" />
             <mxPoint x="115" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-13" value="Experiment termination&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(13, 17, 23); margin-bottom: 0px !important;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-left: 0px;&quot;&gt;No OpenMP support for Clang for CHERI&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em; margin-left: 0px;&quot;&gt;Hermit-core build was causing too many errors (I am spending more than time debugging than focusing my time towards the research goals).&lt;/li&gt;&lt;/ul&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-13" value="Experiment termination&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(13, 17, 23); margin-bottom: 0px !important;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-left: 0px;&quot;&gt;No OpenMP support for Clang for CHERI&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em; margin-left: 0px;&quot;&gt;Hermit-core build was causing too many errors (I am spending more than time debugging than focusing my time towards the research goals).&lt;/li&gt;&lt;/ul&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-840" y="450" width="430" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.548;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-6" target="iBP4piJZRifYzZvC7ej7-17">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-6" target="iBP4piJZRifYzZvC7ej7-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="95" as="sourcePoint" />
+            <mxPoint x="420" y="120" as="sourcePoint" />
             <mxPoint x="470" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-17" value="Setups" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-17" value="Setups" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="300" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-17" target="iBP4piJZRifYzZvC7ej7-19">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-17" target="iBP4piJZRifYzZvC7ej7-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="75" y="370" as="sourcePoint" />
             <mxPoint x="420" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-19" value="CHERIBSD on Qemu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-19" value="CHERIBSD on Qemu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-310" y="480" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.563;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-17" target="iBP4piJZRifYzZvC7ej7-21">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.563;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-17" target="iBP4piJZRifYzZvC7ej7-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="485" y="370" as="sourcePoint" />
             <mxPoint x="590" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-21" value="Popcorn Linux on Qemu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-21" value="Popcorn Linux on Qemu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="480" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-22" value="Uni-kernel performance Euro Par paper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-22" value="Uni-kernel performance Euro Par paper" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="290" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="iBP4piJZRifYzZvC7ej7-22">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="iBP4piJZRifYzZvC7ej7-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="120" as="sourcePoint" />
+            <mxPoint x="420" y="120" as="sourcePoint" />
             <mxPoint x="680" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-22" target="iBP4piJZRifYzZvC7ej7-25">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-22" target="iBP4piJZRifYzZvC7ej7-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="445" y="130" as="sourcePoint" />
             <mxPoint x="410" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-25" value="Paper can found on Pure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-25" value="Paper can found on Pure" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="480" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.533;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-6">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="130" as="sourcePoint" />
+            <mxPoint x="420" y="120" as="sourcePoint" />
             <mxPoint x="680" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-27" value="CHERI Multi-core acceleration plan&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-27" value="CHERI Multi-core acceleration plan&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="290" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.537;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-27" target="iBP4piJZRifYzZvC7ej7-29">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.537;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-27" target="iBP4piJZRifYzZvC7ej7-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="442" y="133" as="sourcePoint" />
             <mxPoint x="690" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-29" value="Planning phase&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-29" value="Planning phase&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="480" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-6">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="130" as="sourcePoint" />
             <mxPoint x="200" y="600" as="targetPoint" />
@@ -101,73 +100,73 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-32" value="CHERI Uni-kernel plan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-32" value="CHERI Uni-kernel plan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="600" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.421;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-32">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.421;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="702" y="370" as="sourcePoint" />
             <mxPoint x="80" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-35" value="Porting Rusty-Hermit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-35" value="Porting Rusty-Hermit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="740" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.568;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iBP4piJZRifYzZvC7ej7-37">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.568;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="iBP4piJZRifYzZvC7ej7-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="670" as="sourcePoint" />
             <mxPoint x="260" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-37" value="Using Unikraft implementation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-37" value="Using Unikraft implementation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="740" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-35" target="iBP4piJZRifYzZvC7ej7-39">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-35" target="iBP4piJZRifYzZvC7ej7-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="680" as="sourcePoint" />
             <mxPoint x="40" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-39" value="Terminated due to Rust only supporting CHERI MIPS and with none of the optimization LLVM with support to Pierre email" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-39" value="Terminated due to Rust only supporting CHERI MIPS and with none of the optimization LLVM with support to Pierre email" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-30" y="870" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-37">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="680" as="sourcePoint" />
             <mxPoint x="315" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-41" value="Tracking Unikraft work with CHERI&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-41" value="Tracking Unikraft work with CHERI&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="890" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.533;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-6" target="iBP4piJZRifYzZvC7ej7-43">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="iBP4piJZRifYzZvC7ej7-43" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="442" y="133" as="sourcePoint" />
+            <mxPoint x="420" y="120" as="sourcePoint" />
             <mxPoint x="930" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-43" value="CHERI offloading types to CHERI address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-43" value="CHERI offloading types to CHERI address" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="290" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-44" value="Dependent on the Multi-core CHERI expirement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-44" value="Dependent on the Multi-core CHERI expirement" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="480" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-43" target="iBP4piJZRifYzZvC7ej7-44">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-43" target="iBP4piJZRifYzZvC7ej7-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="702" y="370" as="sourcePoint" />
             <mxPoint x="715" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.46;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-13">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.46;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-725" y="370" as="sourcePoint" />
             <mxPoint x="-640" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-47" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#000000;strokeWidth=0;strokeColor=default;gradientColor=none;shadow=0;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-47" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#000000;strokeWidth=0;strokeColor=default;gradientColor=none;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-660" y="670" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.437;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-39">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.437;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="iBP4piJZRifYzZvC7ej7-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-632" y="560" as="sourcePoint" />
             <mxPoint x="50" y="1060" as="targetPoint" />
@@ -176,8 +175,59 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBP4piJZRifYzZvC7ej7-49" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#000000;strokeWidth=0;strokeColor=default;gradientColor=none;shadow=0;" vertex="1" parent="1">
+        <mxCell id="iBP4piJZRifYzZvC7ej7-49" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#000000;strokeWidth=0;strokeColor=default;gradientColor=none;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="1070" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.426;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-25" target="cGjM8kS-MEuuw_Mq0tPy-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="447" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-2" value="Getting published" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1340" width="840" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-8" target="cGjM8kS-MEuuw_Mq0tPy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-8" value="Hardware&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="1580" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-9" target="cGjM8kS-MEuuw_Mq0tPy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-9" value="Host OS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="1520" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-10" target="cGjM8kS-MEuuw_Mq0tPy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-10" value="Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="1460" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-11" target="cGjM8kS-MEuuw_Mq0tPy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-11" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="1400" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-14" value="Unikraft, CHERIBSD on Qemu" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1460" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-18" value="CHERI Multi-core acceleration plan (To be implemented on CHERIBSD)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-20" value="CHERI Morello hardware and Acer laptop for testing support support." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="1610" width="132.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-23" value="Parallel program benchmarks." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
