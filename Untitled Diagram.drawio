@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T15:43:17.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="2ultA4vmnOAzR_nuXl3p" version="21.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-16T17:02:45.935Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="n878oBdrP4YFHstl-4gt" version="21.4.0" type="github" pages="4">
   <diagram name="Page-1" id="IVhuWNRBlAkUgPsZoB0r">
-    <mxGraphModel dx="3244" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2767" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,45 +190,6 @@
         <mxCell id="cGjM8kS-MEuuw_Mq0tPy-2" value="Published" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="680" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="1340" width="840" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-8" target="cGjM8kS-MEuuw_Mq0tPy-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-8" value="Hardware&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="1580" width="375" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-9" target="cGjM8kS-MEuuw_Mq0tPy-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-9" value="Host OS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="1520" width="375" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-10" target="cGjM8kS-MEuuw_Mq0tPy-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-10" value="Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="1460" width="375" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cGjM8kS-MEuuw_Mq0tPy-11" target="cGjM8kS-MEuuw_Mq0tPy-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-11" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="1400" width="375" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-14" value="Unikraft, CHERIBSD on Qemu" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1460" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-18" value="CHERI Multi-core acceleration plan (To be implemented on CHERIBSD)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="1530" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-20" value="CHERI Morello hardware and Acer laptop for testing support support." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="307.5" y="1610" width="132.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="cGjM8kS-MEuuw_Mq0tPy-23" value="Parallel program benchmarks." style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="270" y="1380" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="kyJdiHDs66QlZAk7pm-M-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.452;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBP4piJZRifYzZvC7ej7-29" target="kyJdiHDs66QlZAk7pm-M-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="702" y="370" as="sourcePoint" />
@@ -307,7 +268,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PB315q-_nRMGu6VC5TNa" name="Page-2">
-    <mxGraphModel dx="954" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="668" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -426,7 +387,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eMg8MEtXJMZLBOzkxGBn" name="Page-3">
-    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="668" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -518,7 +479,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XiHljB6mcVRsCf0qqXBQ" name="Page-4">
-    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="668" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
