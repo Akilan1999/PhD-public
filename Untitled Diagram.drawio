@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T16:19:27.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="LPBBU1OYUibO3ss8qmen" version="21.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-06-18T16:34:53.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="K3pQzL0NwMAqLEGHf2bS" version="21.4.0" type="github" pages="5">
   <diagram name="Page-1" id="IVhuWNRBlAkUgPsZoB0r">
     <mxGraphModel dx="2322" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -542,13 +542,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-1" value="Dependency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-1" value="&lt;h2&gt;&lt;b&gt;Dependency&lt;/b&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="80" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-2" value="TLB experiments&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-2" value="&lt;h3&gt;&lt;b&gt;TLB experiments&amp;nbsp;&lt;/b&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.333;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="srIl6aXUJeuHE3I3Jn02-2">
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.333;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="srIl6aXUJeuHE3I3Jn02-2" target="srIl6aXUJeuHE3I3Jn02-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="320" as="sourcePoint" />
             <mxPoint x="190" y="290" as="targetPoint" />
@@ -560,25 +560,25 @@
         <mxCell id="srIl6aXUJeuHE3I3Jn02-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.65;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="srIl6aXUJeuHE3I3Jn02-4" target="srIl6aXUJeuHE3I3Jn02-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-4" value="Benefits:&lt;br&gt;(1.1) - Minor experiment that has an optimisation. This helps in providing a focuses approach in understanding the fine grain details of the CHERI Software stack and hardware. For example the exact details for a program running in pure capability and hybrid capability. This experiment is expected to have an initial overhead due since it&#39;s the first time I am programming with CHERI C and with the FreeBSD libraries.&amp;nbsp;&lt;br&gt;&lt;br&gt;Technical benefits:&lt;br&gt;(1.2) - TAG based approach to minimise TLB misses.&lt;br&gt;(1.3) - Better understanding of the ARM morello firmware and performance testing parameters.&amp;nbsp;&lt;br&gt;(1.4) - Better understanding on how to interact available space in pointers.&amp;nbsp;&lt;br&gt;(1.5) - Creating baseline pipeline for automated benchmarks&lt;br&gt;&lt;br&gt;Contributions:&lt;br&gt;(1.6) - Range TLB implementation made for CHERI.&amp;nbsp;&lt;br&gt;(1.7) - TLB evaluation for Hybrid and Pure cap mode.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="280" width="440" height="280" as="geometry" />
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-4" value="&lt;h4&gt;&lt;b&gt;Benefits:&lt;/b&gt;&lt;/h4&gt;&lt;i&gt;(1.1)&lt;/i&gt; - Minor experiment that has an optimisation. This helps in providing a focuses approach in understanding the fine grain details of the CHERI Software stack and hardware. For example the exact details for a program running in pure capability and hybrid capability. This experiment is expected to have an initial overhead due since it&#39;s the first time I am programming with CHERI C and with the FreeBSD libraries.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;b&gt;Technical benefits:&lt;/b&gt;&lt;/h4&gt;&lt;i&gt;(1.2)&lt;/i&gt; - TAG based approach to minimise TLB misses.&lt;br&gt;&lt;i&gt;(1.3) &lt;/i&gt;- Better understanding of the ARM morello firmware and performance testing parameters.&amp;nbsp;&lt;br&gt;&lt;i&gt;(1.4) &lt;/i&gt;- Better understanding on how to interact available space in pointers.&amp;nbsp;&lt;br&gt;&lt;i&gt;(1.5) &lt;/i&gt;- Creating baseline pipeline for automated benchmarks&lt;br&gt;&lt;br&gt;&lt;h4&gt;&lt;b&gt;Contributions:&lt;/b&gt;&lt;/h4&gt;&lt;i&gt;(1.6)&lt;/i&gt; - Range TLB implementation made for CHERI.&amp;nbsp;&lt;br&gt;&lt;i&gt;(1.7) &lt;/i&gt;- TLB evaluation for Hybrid and Pure cap mode.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="460" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-5" value="Typed Architecture&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="620" width="260" height="60" as="geometry" />
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-5" value="&lt;h3&gt;&lt;b&gt;Typed Architecture&amp;nbsp;&lt;/b&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.419;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="srIl6aXUJeuHE3I3Jn02-5">
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.419;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="srIl6aXUJeuHE3I3Jn02-5" target="srIl6aXUJeuHE3I3Jn02-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="270" as="sourcePoint" />
             <mxPoint x="290" y="720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="219" y="720" />
+              <mxPoint x="219" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="srIl6aXUJeuHE3I3Jn02-9" value="(2.1) - (1.3) Beneficial for understanding the ARM morello platform to build in prototype language.&amp;nbsp;&lt;br&gt;&lt;br&gt;(2.2) - (1.4) Faster time for implementation to store types of variables on TAGs.&amp;nbsp;&lt;br&gt;(2.3) - (1.5) - Only benchmarks need to be worked since the pre-existing flow exists.&amp;nbsp;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="700" width="340" height="120" as="geometry" />
+        <mxCell id="srIl6aXUJeuHE3I3Jn02-9" value="&lt;i&gt;(2.1) - (1.3)&lt;/i&gt; Beneficial for understanding the ARM morello platform to build in prototype language.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;i&gt;(2.2) - (1.4)&lt;/i&gt; Faster time for implementation to store types of variables on TAGs.&amp;nbsp;&lt;br&gt;&lt;i&gt;(2.3) - (1.5) &lt;/i&gt;- Only benchmarks need to be worked since the pre-existing flow exists.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-1" value="Uni-kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-1" value="&lt;h3&gt;Uni-kernel&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="860" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.473;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UVsSxp0Wa6aO1JIZ7sfm-1">
@@ -595,13 +595,13 @@
             <mxPoint x="160" y="270" as="sourcePoint" />
             <mxPoint x="50" y="1070" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="50" y="374" />
+              <mxPoint x="50" y="360" />
               <mxPoint x="50" y="820" />
               <mxPoint x="50" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-5" value="x = represents the entire experiment.&amp;nbsp;&lt;br&gt;(3.1) - (2.1) - (1.3) Beneficial for understanding the ARM morello platform to run FlexOS.&lt;br&gt;&lt;br&gt;(1.x) - (2.x) 2 optimisation strategies that will be included to &amp;nbsp;Unikraft as module to be plugged into the Uni-kernel with performance evaluation of benchmarks from (2.3 and 1.5). These optimisations will be compared with the benefits of running on a single address space.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-5" value="x = represents the entire experiment.&amp;nbsp;&lt;br&gt;&lt;i&gt;(3.1) - (2.1) - (1.3) &lt;/i&gt;Beneficial for understanding the ARM morello platform to run FlexOS.&lt;br&gt;&lt;br&gt;(&lt;i&gt;1.x) - (2.x) &lt;/i&gt;2 optimisation strategies that will be included to &amp;nbsp;Unikraft as module to be plugged into the Uni-kernel with performance evaluation of benchmarks from&lt;i&gt; (2.3 and 1.5)&lt;/i&gt;. These optimisations will be compared with the benefits of running on a single address space.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="960" width="320" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.559;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.588;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="srIl6aXUJeuHE3I3Jn02-9" target="UVsSxp0Wa6aO1JIZ7sfm-5">
@@ -613,7 +613,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-7" value="Euro-par experiment 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-7" value="&lt;h3&gt;Euro-par experiment 1&amp;nbsp;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="630" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UVsSxp0Wa6aO1JIZ7sfm-7">
@@ -626,7 +626,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-9" value="(4.1) - Provides a strong understanding of pragmatic problems of running multi-threaded programs on Uni-kernel such as OSv.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-9" value="&lt;i&gt;(4.1) &lt;/i&gt;- Provides a strong understanding of pragmatic problems of running multi-threaded programs on Uni-kernel such as OSv." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="805" width="450" height="95" as="geometry" />
         </mxCell>
         <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.831;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UVsSxp0Wa6aO1JIZ7sfm-9" target="UVsSxp0Wa6aO1JIZ7sfm-5">
@@ -637,6 +637,9 @@
               <mxPoint x="560" y="853" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UVsSxp0Wa6aO1JIZ7sfm-12" value="&lt;h3&gt;&lt;b&gt;Note:&amp;nbsp;&lt;/b&gt;&lt;/h3&gt;- Exploiting parallel programs on FAT pointers requires further analysis there I have yet to find any paper which provide any complemented reasons. &amp;nbsp;&lt;br&gt;&lt;br&gt;- Multi-kernels can looked into one these experiments are at relatively concrete state.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="170" width="350" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
